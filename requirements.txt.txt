@@ -1,7 +1,0 @@
-flask
-tensorflow
-keras
-sklearn
-pandas
-numpy
-random
