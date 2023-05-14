@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Breast Cancer Detection API</title>
+<style>
+    .myclass {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust as needed */
+      background-image: url("https://camo.githubusercontent.com/08ec3c089974a3b4afc864fd08589181881eea9a4bcef7d08273d54d548733d7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f302a7571327447494f7a51305f664a586c492e");
+      background-size: cover;
+      background-position: center;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="myclass">
+        <div>
+            <h1>Breast Cancer Detection API</h1>
+            <p>This API can be used to predict the probability of breast cancer in an image.</p>
+            <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="img">
+            <input type="submit" value="Predict">
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
